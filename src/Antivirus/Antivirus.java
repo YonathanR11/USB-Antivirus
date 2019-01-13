@@ -131,13 +131,14 @@ public class Antivirus extends javax.swing.JFrame implements Runnable{
             Object it1 = i[s2];
             listUni.addRow(new Object[]{it1});
         }
-        if (S6.isOnOff()) {
-            //Muestra todas las unidades
-        } else {
-            int lar = listUni.getRowCount() - 1, r;
-            for (r = 0; r < lar; r++) {
+        if (!S6.isOnOff()) {
+            int lar = listUni.getRowCount()-1;
+            System.err.println("Count: "+(listUni.getRowCount()));
+            for (int r = 0; r < lar; r++) {
                 String valor = (String) listUni.getValueAt(r, 0);
-                if (valor.equals("disco local") || valor.equals("local disk") || valor.equals("Disco local (C:)")) {
+                System.err.println(valor);
+                if (valor.equals("disco local") || valor.equals("local disk") || 
+                        valor.equals("Disco local (C:)") || valor.equals("Windows (C:)")|| valor.equals("RECOVERY(D:)")|| valor.equals("Recovery(D:)")) {
                     listUni.removeRow(r);
                 }
             }
@@ -173,15 +174,14 @@ public class Antivirus extends javax.swing.JFrame implements Runnable{
             Object it1 = i[s2];
             listUni.addRow(new Object[]{it1});
         }
-        if (S6.isOnOff()) {
-            //Muestra todas las unidades
-
-        } else {
-            int lar = listUni.getRowCount() - 1, r;
-            for (r = 0; r < lar; r++) {
+        if (!S6.isOnOff()) {
+            int lar = listUni.getRowCount()-1;
+            System.err.println("Count: "+(listUni.getRowCount()));
+            for (int r = 0; r < lar; r++) {
                 String valor = (String) listUni.getValueAt(r, 0);
-
-                if (valor.equals("disco local") || valor.equals("local disk") || valor.equals("Disco local (C:)")) {
+                System.err.println(valor);
+                if (valor.equals("disco local") || valor.equals("local disk") || 
+                        valor.equals("Disco local (C:)") || valor.equals("Windows (C:)")|| valor.equals("RECOVERY(D:)")|| valor.equals("Recovery(D:)")) {
                     listUni.removeRow(r);
                 }
             }
