@@ -12,6 +12,8 @@ Desinfecta los USB de archivos malisiosos.
  
  **_No soy responsable de un mal uso, archivos borrados, fallas o daños en los dispositivos o archivos, haga un respaldo antes._**
  
+ **_Aplicacion aun en Beta, puede contener fallas o errores._**
+ 
  **Screenshots**
  
  ![alt text](https://github.com/YonathanR11/USB-Antivirus/blob/master/Screenshots/1.PNG)
