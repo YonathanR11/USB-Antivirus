@@ -10,7 +10,7 @@ Desinfecta los USB de archivos malisiosos.
  
  **_*Use con precaucion, puede contener errores fatales._**
  
- **_No soy responsable de un mal uso, archivos borrados o fallas en los dispositivos, haga un respaldo antes._**
+ **_No soy responsable de un mal uso, archivos borrados, fallas o daños en los dispositivos o archivos, haga un respaldo antes._**
  
  **Screenshots**
  
