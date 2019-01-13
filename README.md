@@ -9,7 +9,8 @@ Desinfecta los USB de archivos malisiosos.
  - Tres niveles de vacuna.
  
  **_*Use con precaucion, puede contener errores fatales._**
- **_*No soy responsable de un mal uso, archivos borrados o fallas en los dispositivos, haga un respaldo antes._**
+ 
+ **_No soy responsable de un mal uso, archivos borrados o fallas en los dispositivos, haga un respaldo antes._**
  
  **Screenshots**
  
